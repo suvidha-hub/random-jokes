@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Potta+One&family=Yuji+Mai&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Potta+One&family=Yuji+Mai&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #2e8bc0;
+    font-family: "Caveat", cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    padding: 20px;
+   
+}
+
+.btn{
+    background-color: #b1d4e0;
+}
+
+.container{
+    background-color:  #fff;
+    width: 800px;
+    border-radius: 10px;
+   text-align: center;
+   padding: 50px 20px;  
+   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+}
+
+.p{
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    margin: 50px auto;
+    max-width: 600px;
+}
+
+button{
+    padding:14px 40px;
+    border-radius: 10px;
+    color: #145da0;
+    border:0;
+    font-family: "Potta One", system-ui;
+    font-weight: 400;
+  font-style: normal;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+h3{
+    font-family: "Montserrat", serif;
+    font-weight: 800;
+    opacity: 0.5;
+    letter-spacing: 2px;
+    
+}
+
+.btn:active {
+    transform: scale(0.98);
+  }
+  
+  .btn:focus {
+    outline: 0;
+  }
