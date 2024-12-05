@@ -1,1 +1,1 @@
-# It generates random jokes
+# It generates random jokes.
